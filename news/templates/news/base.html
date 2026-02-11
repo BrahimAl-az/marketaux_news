@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Real-time stock market news powered by Marketaux API. Track TSLA, AMZN, MSFT and more with sentiment analysis.">
+    <title>{% block title %}Stock Market News{% endblock %} | Marketaux</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'news/css/style.css' %}">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">📈</span>
+                    <span class="logo-text">Marketaux<span class="logo-highlight">News</span></span>
+                </div>
+                <nav class="nav">
+                    <a href="/" class="nav-link active">Dashboard</a>
+                    <a href="/?symbols=TSLA" class="nav-link">Tesla</a>
+                    <a href="/?symbols=AMZN" class="nav-link">Amazon</a>
+                </nav>
+            </div>
+        </header>
+        
+        <main class="main-content">
+            {% block content %}{% endblock %}
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2026 Marketaux News. Powered by <a href="https://marketaux.com" target="_blank">Marketaux API</a></p>
+        </footer>
+    </div>
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

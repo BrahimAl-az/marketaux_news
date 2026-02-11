@@ -1,0 +1,451 @@
+{
+  "records": [
+    {
+      "uuid": "a43d961f-4ce2-49fc-87a0-22fac4e2e309",
+      "title": "Washington Post Braces For Big Job Cuts In Latest Retrenchment",
+      "description": "Several of the Posts foreign correspondents took to social media to publicly plead their case.",
+      "source": "ndtv.com",
+      "url": "https://www.ndtvprofit.com/business/washington-post-braces-for-big-job-cuts-in-latest-retrenchment-10890078#publisher=newsstand",
+      "image_url": "https://c.ndtvimg.com/2026-01/7e18jnjk_picture-used-for-representational-purpose-only_625x300_27_January_26.jpg?im=FeatureCrop,algorithm=dnn,width=1080,height=607",
+      "published_at": "2026-01-27T01:28:30.000000Z",
+      "language": "en",
+      "relevance_score": null,
+      "entities": [
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com, Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Consumer Cyclical",
+          "match_score": 18.836836,
+          "sentiment_score": 0,
+          "highlights": [
+            {
+              "highlight": "#SaveThePost pic.twitter.com/lb8Qe56L1k [+218 characters]",
+              "sentiment": 0,
+              "highlighted_in": "main_text"
+            }
+          ]
+        }
+      ],
+      "symbols": [
+        "AMZN"
+      ],
+      "sentiment_scores": [
+        0
+      ],
+      "avg_sentiment": 0.0,
+      "num_entities": 1,
+      "fetched_at": "2026-01-27T11:20:24.023421"
+    },
+    {
+      "uuid": "69b373a7-456d-429d-b4ec-9ebc03f0ea26",
+      "title": "Big tech earnings land with AI winners still In question",
+      "description": "Big Tech companies are releasing earnings this week. Investors are watching closely to see if these giants can justify their massive AI spending.  The results will guide investment strategies for 2026.  Niche AI stocks have performed well, but the focus may shift back to tech leaders if they show strong returns.  Alphabet and Nvidia are key players to watch.",
+      "source": "economictimes.indiatimes.com",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/big-tech-earnings-land-with-ai-winners-still-in-question/articleshow/127583808.cms",
+      "image_url": "https://img.etimg.com/thumb/msid-127583754,width-1200,height-630,imgsize-240038,overlay-etmarkets/articleshow.jpg",
+      "published_at": "2026-01-27T00:21:06.000000Z",
+      "language": "en",
+      "relevance_score": null,
+      "entities": [
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com, Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Consumer Cyclical",
+          "match_score": 17.054699,
+          "sentiment_score": 0.2162,
+          "highlights": [
+            {
+              "highlight": "., <em>Amazon.com</em> <em>Inc</em>., Ap[+144 characters]",
+              "sentiment": 0,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "of dollars the companies are spending to[+328 characters]",
+              "sentiment": 0.6486,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "<em>Amazon.com</em> reports on Feb. 5.Th[+149 characters]",
+              "sentiment": 0,
+              "highlighted_in": "main_text"
+            }
+          ]
+        }
+      ],
+      "symbols": [
+        "AMZN"
+      ],
+      "sentiment_scores": [
+        0.2162
+      ],
+      "avg_sentiment": 0.2162,
+      "num_entities": 1,
+      "fetched_at": "2026-01-27T11:20:24.023421"
+    },
+    {
+      "uuid": "71f1ad1a-cb7a-49c9-b22f-56f275664a64",
+      "title": "BlackRock Credit Fund Hit With 19% Markdown As Loans Go Bad",
+      "description": "ZeroHedge - On a long enough timeline, the survival rate for everyone drops to zero",
+      "source": "zerohedge.com",
+      "url": "https://www.zerohedge.com/markets/blackrock-credit-fund-hit-19-markdown-loans-go-bad",
+      "image_url": "https://assets.zerohedge.com/s3fs-public/styles/16_9_max_700/public/2026-01/2026-01-24_14-09-48.png?h=887517a7&itok=6NErP8bL",
+      "published_at": "2026-01-26T15:25:00.000000Z",
+      "language": "en",
+      "relevance_score": null,
+      "entities": [
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com, Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Consumer Cyclical",
+          "match_score": 17.828804,
+          "sentiment_score": 0.3182,
+          "highlights": [
+            {
+              "highlight": "According to Bloomberg, the credit fund [+276 characters]",
+              "sentiment": 0.3182,
+              "highlighted_in": "main_text"
+            }
+          ]
+        }
+      ],
+      "symbols": [
+        "AMZN"
+      ],
+      "sentiment_scores": [
+        0.3182
+      ],
+      "avg_sentiment": 0.3182,
+      "num_entities": 1,
+      "fetched_at": "2026-01-27T11:20:24.023421"
+    },
+    {
+      "uuid": "c1be9a5b-00a0-4fea-af7a-77001384ac27",
+      "title": "Gold Sentiment Back in Extreme Buy as Trend-Traders Latch On",
+      "description": "Market Analysis by  covering: US Dollar Japanese Yen, Gold Spot US Dollar, S&P 500, Microsoft Corporation. Read 's Market Analysis on Investing.com",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/gold-sentiment-back-in-extreme-buy-as-trendtraders-latch-on-200673890",
+      "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+      "published_at": "2026-01-27T06:47:00.000000Z",
+      "language": "en",
+      "relevance_score": null,
+      "entities": [
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Technology",
+          "match_score": 10.711763,
+          "sentiment_score": 0.3182,
+          "highlights": [
+            {
+              "highlight": "of a U.S. government shutdown ahead of t[+324 characters]",
+              "sentiment": 0.3182,
+              "highlighted_in": "main_text"
+            }
+          ]
+        }
+      ],
+      "symbols": [
+        "AAPL"
+      ],
+      "sentiment_scores": [
+        0.3182
+      ],
+      "avg_sentiment": 0.3182,
+      "num_entities": 1,
+      "fetched_at": "2026-01-27T11:21:55.348357"
+    },
+    {
+      "uuid": "37612e62-5298-4e14-b143-3597d90b2cca",
+      "title": "Magnificent 7 Earnings This Week: Pitfalls and Tailwinds Examined",
+      "description": "Market Analysis by  covering: Microsoft Corporation, Apple Inc, Tesla Inc, Meta Platforms Inc. Read 's Market Analysis on Investing.com",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/magnificent-7-earnings-this-week-pitfalls-and-tailwinds-examined-200673877",
+      "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+      "published_at": "2026-01-27T06:41:00.000000Z",
+      "language": "en",
+      "relevance_score": null,
+      "entities": [
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Technology",
+          "match_score": 13.893667,
+          "sentiment_score": 0.2836,
+          "highlights": [
+            {
+              "highlight": "This week, four out of seven companies w[+325 characters]",
+              "sentiment": 0,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "<em>Apple</em> – Mature AI on a Foldab[+309 characters]",
+              "sentiment": 0.128,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "In early November, we noted <em>Apple</e[+242 characters]",
+              "sentiment": 0.2795,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "The <em>Apple</em> foldable has the pote[+250 characters]",
+              "sentiment": 0.7269,
+              "highlighted_in": "main_text"
+            }
+          ]
+        }
+      ],
+      "symbols": [
+        "AAPL"
+      ],
+      "sentiment_scores": [
+        0.2836
+      ],
+      "avg_sentiment": 0.2836,
+      "num_entities": 1,
+      "fetched_at": "2026-01-27T11:21:55.348357"
+    },
+    {
+      "uuid": "2abca2a0-3159-459c-8327-a67bb5f84f1c",
+      "title": "Tech Rebound Eases Greenland Jitters as Earnings Season Gains Momentum",
+      "description": "Market Analysis by  covering: S&P 500, Microsoft Corporation, Alphabet Inc Class A, Apple Inc. Read 's Market Analysis on Investing.com",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/tech-rebound-eases-greenland-jitters-as-earnings-season-gains-momentum-200673878",
+      "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+      "published_at": "2026-01-27T05:11:00.000000Z",
+      "language": "en",
+      "relevance_score": null,
+      "entities": [
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Technology",
+          "match_score": 11.300337,
+          "sentiment_score": -0.3818,
+          "highlights": [
+            {
+              "highlight": "Earnings results from heavy hitters, Mic[+255 characters]",
+              "sentiment": -0.3818,
+              "highlighted_in": "main_text"
+            }
+          ]
+        }
+      ],
+      "symbols": [
+        "AAPL"
+      ],
+      "sentiment_scores": [
+        -0.3818
+      ],
+      "avg_sentiment": -0.3818,
+      "num_entities": 1,
+      "fetched_at": "2026-01-27T11:21:55.348357"
+    },
+    {
+      "uuid": "a1b749c9-4873-458a-8e72-c6463fdcf49b",
+      "title": "Tesla: Autonomy Stack Isn’t Ready To Justify Valuation (Rating Downgrade) (NASDAQ:TSLA)",
+      "description": "Tesla stock downgraded to sell as TSLA stays overvalued, autonomy/Optimus slip, and global auto sales weaken. Learn more about TSLA stock here.",
+      "source": "seekingalpha.com",
+      "url": "https://seekingalpha.com/article/4862796-tesla-stock-autonomy-stack-isnt-ready-to-justify-valuation-downgrade",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2199839985/image_2199839985.jpg?io=getty-c-w1536",
+      "published_at": "2026-01-27T07:34:46.000000Z",
+      "language": "en",
+      "relevance_score": null,
+      "entities": [
+        {
+          "symbol": "TSLA",
+          "name": "Tesla, Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Consumer Cyclical",
+          "match_score": 63.004913,
+          "sentiment_score": 0.2446,
+          "highlights": [
+            {
+              "highlight": "In my prior report on <em>Tesla</em>, <e[+242 characters]",
+              "sentiment": 0.128,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "<em>Tesla</em>: Autonomy Stack Isn’t Ready To Justify Valuation (Rating Downgrade) (<em>NASDAQ:TSLA</em>)",
+              "sentiment": 0.3612,
+              "highlighted_in": "title"
+            }
+          ]
+        }
+      ],
+      "symbols": [
+        "TSLA"
+      ],
+      "sentiment_scores": [
+        0.2446
+      ],
+      "avg_sentiment": 0.2446,
+      "num_entities": 1,
+      "fetched_at": "2026-01-27T11:22:13.288903"
+    },
+    {
+      "uuid": "bd756133-784a-404e-a4c5-c05ec5c3b2ee",
+      "title": "Microsoft at $473 After $555 Peak – Is a Move to $575–$624 Next?",
+      "description": "Market Analysis by  covering: Microsoft Corporation. Read 's Market Analysis on Investing.com",
+      "source": "investing.com",
+      "url": "https://www.investing.com/analysis/microsoft-at-473-after-555-peak--is-a-move-to-575624-next-200673895",
+      "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+      "published_at": "2026-01-27T07:09:00.000000Z",
+      "language": "en",
+      "relevance_score": null,
+      "entities": [
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corporation",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Technology",
+          "match_score": 22.09961,
+          "sentiment_score": -0.007573,
+          "highlights": [
+            {
+              "highlight": "<em>Microsoft</em> (NASDAQ: ) trades aro[+239 characters]",
+              "sentiment": 0.5859,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "From the July 2025 breakout into the lat[+245 characters]",
+              "sentiment": -0.1027,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "The productivity stack is quietly turnin[+239 characters]",
+              "sentiment": 0.4939,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "There is a genuine execution risk around[+109 characters]",
+              "sentiment": -0.4019,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "That launch triggered internal “code r[+303 characters]",
+              "sentiment": 0,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "On the model side, internal MAI-1 and Ph[+201 characters]",
+              "sentiment": 0.2732,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "The risk is multiple compression if <em>[+235 characters]",
+              "sentiment": -0.6251,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "For <em>Microsoft</em> that would transl[+262 characters]",
+              "sentiment": 0.5859,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "Third, OpenAI dependency and legal drag:[+190 characters]",
+              "sentiment": -0.8925,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "None of these are abstract; they are rea[+168 characters]",
+              "sentiment": 0,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "<em>Microsoft</em> at $473 After $555 Peak – Is a Move to $575–$624 Next?",
+              "sentiment": 0,
+              "highlighted_in": "title"
+            }
+          ]
+        }
+      ],
+      "symbols": [
+        "MSFT"
+      ],
+      "sentiment_scores": [
+        -0.007573
+      ],
+      "avg_sentiment": -0.0076,
+      "num_entities": 1,
+      "fetched_at": "2026-01-27T11:22:13.288903"
+    },
+    {
+      "uuid": "b140f33b-a094-4745-b60a-b11bf147740a",
+      "title": "Vietnam's VinFast partners with AI firm on 'robo-car' system",
+      "description": "HANOI — Vietnamese electric car maker VinFast said Tuesday it would partner with Israeli AI firm Autobrains to upgrade its autonomous driving technology and launch a lower-cost 'robo-car' system.",
+      "source": "manilatimes.net",
+      "url": "https://www.manilatimes.net/2026/01/27/world/asia-oceania/vietnams-vinfast-partners-with-ai-firm-on-robo-car-system/2265722",
+      "image_url": "https://www.manilatimes.net/manilatimes/uploads/images/2026/01/27/913659.jpg",
+      "published_at": "2026-01-27T07:07:58.000000Z",
+      "language": "en",
+      "relevance_score": null,
+      "entities": [
+        {
+          "symbol": "TSLA",
+          "name": "Tesla, Inc.",
+          "exchange": null,
+          "exchange_long": null,
+          "country": "us",
+          "type": "equity",
+          "industry": "Consumer Cyclical",
+          "match_score": 13.937023,
+          "sentiment_score": 0.55615,
+          "highlights": [
+            {
+              "highlight": "It listed on the Nasdaq in 2023 as part [+279 characters]",
+              "sentiment": 0.4215,
+              "highlighted_in": "main_text"
+            },
+            {
+              "highlight": "While truly driverless cars remain some [+274 characters]",
+              "sentiment": 0.6908,
+              "highlighted_in": "main_text"
+            }
+          ]
+        }
+      ],
+      "symbols": [
+        "TSLA"
+      ],
+      "sentiment_scores": [
+        0.55615
+      ],
+      "avg_sentiment": 0.5562,
+      "num_entities": 1,
+      "fetched_at": "2026-01-27T11:22:13.288903"
+    }
+  ],
+  "last_updated": "2026-01-27T11:25:57.689939",
+  "total_records": 9
+}

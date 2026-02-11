@@ -1,0 +1,112 @@
+{% extends 'news/base.html' %}
+
+{% block title %}Stock Market News Dashboard{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1 class="hero-title">
+            <span class="gradient-text">Real-Time Stock</span>
+            <br>Market Intelligence
+        </h1>
+        <p class="hero-subtitle">
+            Track sentiment, discover trends, and stay ahead of the market with AI-powered news analysis.
+        </p>
+    </div>
+    <div class="hero-stats">
+        <div class="stat-card">
+            <span class="stat-value">{{ meta.found|default:"0" }}</span>
+            <span class="stat-label">Articles Found</span>
+        </div>
+        <div class="stat-card">
+            <span
+                class="stat-value {% if market_sentiment_class == 'positive' %}text-positive{% elif market_sentiment_class == 'negative' %}text-negative{% endif %}">
+                {% if market_sentiment > 0 %}+{% endif %}{{ market_sentiment|floatformat:2 }}
+            </span>
+            <span class="stat-label">Market Sentiment</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value">{{ current_symbols|length }}</span>
+            <span class="stat-label">Symbols Tracked</span>
+        </div>
+    </div>
+</section>
+
+<section class="filters-section">
+    <h2 class="section-title">Filter by Symbol</h2>
+    <div class="symbol-pills">
+        {% for symbol in available_symbols %}
+        <a href="?symbols={{ symbol }}" class="symbol-pill {% if symbol in current_symbols %}active{% endif %}">
+            {{ symbol }}
+        </a>
+        {% endfor %}
+        <a href="?symbols=TSLA,AMZN,MSFT" class="symbol-pill reset-pill">Reset</a>
+    </div>
+</section>
+
+<section class="news-section">
+    <h2 class="section-title">Latest News</h2>
+
+    {% if error %}
+    <div class="error-alert"
+        style="background-color: #fee2e2; color: #dc2626; padding: 1rem; border-radius: 0.5rem; margin-bottom: 2rem; border: 1px solid #fca5a5;">
+        <strong>API Error:</strong> {{ error }}
+    </div>
+    {% endif %}
+
+    {% if news_items %}
+    <div class="news-grid">
+        {% for item in news_items %}
+        <article class="news-card">
+            <div class="card-image-container">
+                {% if item.image_url %}
+                <img src="{{ item.image_url }}" alt="{{ item.title }}" class="card-image" loading="lazy">
+                {% else %}
+                <div class="card-image-placeholder">
+                    <span>📰</span>
+                </div>
+                {% endif %}
+                <div class="card-source">{{ item.source }}</div>
+            </div>
+
+            <div class="card-content">
+                <h3 class="card-title">
+                    <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+                </h3>
+
+                <p class="card-description">{{ item.description|truncatewords:25 }}</p>
+
+                <div class="card-entities">
+                    {% for entity in item.entities %}
+                    <div class="entity-tag {{ entity.sentiment_class }}">
+                        <span class="entity-symbol">{{ entity.symbol }}</span>
+                        {% if entity.sentiment_score is not None %}
+                        <span class="entity-sentiment">
+                            {% if entity.sentiment_score >= 0 %}+{% endif %}{{ entity.sentiment_score|floatformat:2 }}
+                        </span>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+
+                <div class="card-meta">
+                    <span class="card-date">
+                        {{ item.published_at|slice:":10" }}
+                    </span>
+                    <a href="{{ item.url }}" target="_blank" rel="noopener" class="read-more">
+                        Read More →
+                    </a>
+                </div>
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="no-results">
+        <div class="no-results-icon">📭</div>
+        <h3>No News Found</h3>
+        <p>Try selecting different stock symbols or check back later.</p>
+    </div>
+    {% endif %}
+</section>
+{% endblock %}
